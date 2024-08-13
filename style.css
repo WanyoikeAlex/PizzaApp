@@ -1,0 +1,93 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+#page-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+/* Pizza Section Styling */
+.pizza {
+  margin-bottom: 20px;
+}
+
+.label-size,
+.label-crust,
+.label-toppings,
+.label-quantity {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #666;
+}
+
+.input-size,
+.input-crust,
+.input-quantity {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.toppings {
+  margin-top: 5px;
+}
+
+.input-topping {
+  margin-right: 5px;
+}
+
+.toppings label {
+  margin-right: 15px;
+}
+
+/* Delivery and Customer Sections */
+#delivery-section,
+#customer-section {
+  margin-bottom: 20px;
+}
+
+/* Order Summary */
+#order-summary {
+  margin-bottom: 20px;
+}
+
+/* Submit Button */
+#place-order-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#place-order-button:hover {
+  background-color: #218838;
+}
