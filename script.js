@@ -59,3 +59,4 @@ const orderPizza = function (e) {
 };
 
 placeOrder.addEventListener('click', orderPizza);
+placeOrder.addEventListener('click', orderPizza);
