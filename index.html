@@ -80,7 +80,7 @@
           name="delivery-location"
           class="input-location"
         >
-          <option value="area">Self PickUp</option>
+          <option value="pickup">Self PickUp</option>
           <option value="center">City Center</option>
           <option value="suburbs">Suburbs</option>
           <option value="uptown">Uptown</option>
@@ -105,15 +105,14 @@
       </div>
 
       <div class="summary" id="order-summary">
-        <h2 class="section-title">
-          Order Summary:
-          <span id="order-summary-details"></span>
-        </h2>
         <!-- Order summary details can be added here -->
       </div>
 
       <button type="submit" id="place-order-button">Place Order</button>
-      <button type="button" id="other-order-button">Add Another Order</button>
+      <br />
+      <button type="button" id="add-order-button">Add Order</button>
+      <br />
+      <button type="reset" id="reset-button">Reset</button>
     </form>
   </body>
   <script src="script.js"></script>
